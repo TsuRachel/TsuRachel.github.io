@@ -419,27 +419,6 @@ body {
     border: 2px #415161 solid;
 }
 
-#gallery-img1 {
-    background-image: url("../img/sample-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#gallery-img2 {
-    background-image: url("../img/sample-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#gallery-img3 {
-    background-image: url("../img/sample-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .gallery-nav {
     text-align: center;
     margin-bottom: 30px;
