@@ -3,7 +3,7 @@
 body {
     font-family: sans-serif;
     font-weight: bold;
-    min-width: 1225px;
+    max-width: 1225px;
 }
 /* Upper Header */
 
