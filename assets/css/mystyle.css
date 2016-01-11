@@ -298,6 +298,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 /* Gallery Page */
 /* Capstone Page */
@@ -326,10 +327,12 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     width: 90%;
-    height: 650px;
+    display: block;
+    overflow: auto;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     color: #415161;
 }
 
@@ -370,4 +373,86 @@ body {
 .contact-right-column h2:nth-of-type(2n+1) {
     margin-bottom: 20px;
     font-size: .9em;
+}
+/* Gallery Page */
+
+.gallery-content {
+    width: 90%;
+    display: block;
+    overflow: auto;
+    font-family: sans-serif;
+    color: #415161;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-info {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.gallery-info h2 {
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.gallery-text {
+    width: 50%;
+    float: right;
+}
+
+.gallery-text p {
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.gallery-img {
+    width: 48%;
+    height: 400px;
+    float: left;
+    border: 2px #415161 solid;
+}
+
+#gallery-img1 {
+    background-image: url("../img/sample-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gallery-img2 {
+    background-image: url("../img/sample-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gallery-img3 {
+    background-image: url("../img/sample-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery-nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-nav li {
+    display: inline-block;
+}
+
+.gallery-nav a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #415161;
 }
