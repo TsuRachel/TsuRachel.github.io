@@ -217,10 +217,11 @@ body {
 
 .about-content1 div:nth-of-type(1) {
     width: 50%;
-    height: 300px;
-    background-image: url("../img/sample-home.jpg");
+    height: 420px;
+    background-image: url("../img/sample-profile.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     float: left;
     margin-top: 50px;
     padding-right: 20px;
@@ -434,4 +435,52 @@ body {
     margin-right: 5px;
     margin-left: 5px;
     color: #415161;
+}
+/* Achievements Page */
+
+.achievements-content {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    color: #415161;
+    text-align: center;
+}
+
+.a-img {
+    width: 90%;
+    height: 820px;
+    display: block;
+    overflow: auto;
+    border: 2px solid #415161;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#a-img1 {
+    background-image: url("../img/photoshop-certificate.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#a-img2 {
+    background-image: url("../img/flash-certificate.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#a-img3 {
+    background-image: url("../img/straightas.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
