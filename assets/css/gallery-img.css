@@ -117,6 +117,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 360px;
+}
+
+#gallery-text13 {
+    width: 67%
 }
 
 #gallery-img14 {
@@ -134,21 +139,30 @@
 }
 
 #gallery-img16 {
-    background-image: url("../img/sample-home.jpg");
+    background-image: url("../img/DarkSurreal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 265px;
+}
+
+#gallery-text16 {
+    width: 76%
 }
 
 #gallery-img17 {
-    background-image: url("../img/sample-home.jpg");
+    background-image: url("../img/ChineseTiger.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+#gallery-text17 {
+    width: 70%
+}
+
 #gallery-img18 {
-    background-image: url("../img/sample-home.jpg");
+    background-image: url("../img/DragonJPEG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
