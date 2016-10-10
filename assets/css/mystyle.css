@@ -308,11 +308,11 @@ body {
 }
 
 #resume {
-    background-image: url("../img/tsuresume.PNG");
+    background-image: url("../img/Resume1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30%;
-    height: 500px;
+    width: 565px;
+    height: 800px;
     border: 1px solid rgba(0, 0, 0, .2);
     margin-left: auto;
     margin-right: auto;
